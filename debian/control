@@ -15,4 +15,5 @@ Standards-Version: 3.9.4
 Package: anon-gw-leaktest
 Architecture: all
 Depends: tor, tshark, ${misc:Depends}
+Conflicts: anon-ws-leaktest
 Description: Leak Test for Anonymity Distribution Gateways

@@ -24,7 +24,7 @@ Anonymity Distribution Gateway specific leaktest.
 
 Advanced users, developers and auditors only!
 
-First installs and configures tshark, then comments in
+First configures tshark, then comments in
 `ReachableDirAddresses *:80`, `ReachableORAddresses *:443` and
 `FascistFirewall 1` in /usr/share/tor/tor-service-defaults-torrc, reloads Tor, checks Tor's status,
 and finally runs tshark and waits until you abort using `CTRL + C`. After
