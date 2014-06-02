@@ -17,3 +17,4 @@ Architecture: all
 Depends: tor, tshark, ed, sudo, ${misc:Depends}
 Conflicts: anon-ws-leaktest
 Description: Leak Test for Anonymity Distribution Gateways
+ See https://www.whonix.org/wiki/Dev/Leak_Tests.
