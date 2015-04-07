@@ -1,3 +1,27 @@
+commit b5f0c0a98425cbde42920614f2b050b89c9f404a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 18:40:54 2015 +0000
+
+    added genmkfile to Build-Depends
+
+commit cb1d7bb7e21ea76a73d218e4e26200e0a73f2d31
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 17:39:30 2015 +0000
+
+    updated debian/rules for makefile generic to version 1.5
+
+commit dfd509cb0a5a3a09b309a5555b64aafe173a7893
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 17:24:18 2015 +0000
+
+    updated makefile generic to version 1.5
+
+commit c8710073e8d799a5debde29d9586c567d92b6006
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:36:07 2015 +0000
+
+    bumped changelog version
+
 commit ca5112792932c6a768c49f715cfcaf0285f8c5e8
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Mar 24 17:26:15 2015 +0000
