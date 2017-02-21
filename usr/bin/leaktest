@@ -33,7 +33,7 @@ exit_function() {
    ed -s /usr/share/tor/tor-service-defaults-torrc <<< $',s/FascistFirewall 1/#FascistFirewall 1/g\nw'
 
    true "INFO: Reloading Tor, using normal settings again"
-   service tor@default reload
+   systemctl --no-pager reload tor@default
 }
 
 trap "exit_function" EXIT
@@ -47,8 +47,8 @@ ed -s /usr/share/tor/tor-service-defaults-torrc <<< $',s/\#ReachableORAddresses 
 ed -s /usr/share/tor/tor-service-defaults-torrc <<< $',s/\#FascistFirewall 1/FascistFirewall 1/g\nw'
 
 true "INFO: Restarting Tor, only using port 80 and 443..."
-service tor@default reload
-service tor@default status
+systemctl --no-pager reload tor@default
+systemctl --no-pager status tor@default
 
 true "NOTE: You must be logged in as user and start this script with sudo leaktest"
 true "NOTE: Otherwise you will see a lot tshark error messages."
