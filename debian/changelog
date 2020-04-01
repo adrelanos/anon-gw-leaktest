@@ -1,3 +1,9 @@
+anon-gw-leaktest (3:2.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 01 Apr 2020 14:19:29 +0000
+
 anon-gw-leaktest (3:2.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
